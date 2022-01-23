@@ -1,0 +1,117 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.first{
+    background-color: #1f2937;
+
+}
+.content{
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 20px;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    
+    color:#f9faf8;
+    font-size: 24px;
+    
+    
+    font-weight: bolder;
+}
+
+.hero{
+    display:flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+    gap:80px;
+}
+
+ul {
+    display: flex;
+    gap:30px;
+    list-style-type: none;
+}
+
+li {
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB ;
+}
+
+.title {
+    font-size: 48px;
+    font-weight:900;
+    color:#f9faf8;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-side {
+    width:500px;
+    gap:10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.right-side {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 90, 100);
+}
+
+.placeholder {
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+
+img { 
+    width: 100%;
+    object-fit: contain;
+    border-radius: 0px;
+    
+  }
+
+img:hover {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(167, 167, 167, 0.19);
+}
+
+button.signup {
+    padding:8px 40px;
+    background-color: #3882f6 ;
+    border-style: none;
+    border-radius: 8px;
+    color:#f9faf8;
+    font-weight: bolder;
+    font-size: large;
+}
+
+button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
