@@ -25,19 +25,17 @@
     
     color:#f9faf8;
     font-size: 24px;
-    
-    
     font-weight: bolder;
+    
 }
 
 .hero{
-    display:flex;
-    align-items: stretch;
-    justify-content: space-between;
+    display:flex;    
+    color: white;
     margin-top: 100px;
     margin-bottom: 100px;
-    color: white;
     gap:80px;
+    
 }
 
 ul {
@@ -54,6 +52,7 @@ a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB ;
+    padding:10px;
 }
 
 .title {
@@ -68,8 +67,8 @@ a{
 }
 
 .left-side {
-    width:500px;
-    gap:10px;
+    flex:1;
+    width:600px;
     display: flex;
     flex-wrap: wrap;
 
@@ -100,6 +99,13 @@ img:hover {
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(167, 167, 167, 0.19);
 }
 
+a:hover  {
+    border-radius: 12px;
+    background-color: #1f2937;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(167, 167, 167, 0.19);
+}
+
+
 button.signup {
     padding:8px 40px;
     background-color: #3882f6 ;
@@ -115,3 +121,80 @@ button:hover {
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
+.second {
+    margin-top: 20px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.cubes {
+    margin-top:20px;
+    display: flex;
+    padding: 50px;
+    gap:50px;
+
+}
+
+.cube {
+    /* border: red 1px solid; */
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.cborder {
+    flex:1 1 auto;
+    border: #3882f6 4px solid;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.ctext {
+    text-align: center;
+    flex:1;
+    width: 200px;
+    color: #858585;
+    font-size: 18px;
+
+}
+
+.third {
+    margin-left: 350px;
+    margin-right: 350px;
+    
+}
+
+.formargin {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.quotewithauthor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom:100px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+}
+
+.author {
+    margin-top: 10px;
+    align-self: flex-end;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 900;
+}
