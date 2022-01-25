@@ -88,10 +88,13 @@ a{
     justify-content: center;
 }
 
-img { 
-    width: 100%;
+.right-side > img { 
+    
     object-fit: contain;
     border-radius: 0px;
+    aspect-ratio: 2/1;
+    width: 100%;
+
     
   }
 
@@ -158,6 +161,7 @@ button:hover {
     border-radius: 15px;
     width: 200px;
     height: 200px;
+    overflow: hidden;
 }
 
 .ctext {
@@ -172,23 +176,28 @@ button:hover {
 .third {
     margin-left: 350px;
     margin-right: 350px;
+    display: flex;
+    justify-content: center;
     
 }
 
 .formargin {
     background-color: #E5E7EB;
     display: flex;
+    justify-content: center;
 }
 
 .quotewithauthor {
     display: flex;
     flex-direction: column;
+    width:80%;
     margin-top: 100px;
     margin-bottom:100px;
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
     font-weight:lighter;
+    align-items: center;
 }
 
 .author {
@@ -197,4 +206,10 @@ button:hover {
     font-style: normal;
     font-size: 24px;
     font-weight: 900;
+}
+
+.cborder > img {
+    width:100%;
+    aspect-ratio: 1/1;
+
 }
